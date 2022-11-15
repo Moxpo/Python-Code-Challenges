@@ -5,4 +5,4 @@
 #   is that you'll need to use Pi in order to solve this problem. You can import the value for Pi from Python's
 #   math module.
 
-# This is a test
+userInput = input("Give me a RAD : \n")

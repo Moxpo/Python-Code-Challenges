@@ -6,3 +6,5 @@
 #   math module.
 
 userInput = input("Give me a RAD : \n")
+radCalc = int(userInput) * (180 / 3.14159265359)
+print (radCalc)

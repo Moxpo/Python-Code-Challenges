@@ -27,3 +27,5 @@ elif command == "desc":
     print(numberList)
 else:
     print(numberList)
+
+#	This has been eddited from my pi though SSH, terminal and nano!

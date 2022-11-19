@@ -1,3 +1,4 @@
+
 #    Create a function in Python that accepts two parameters. The first will be a list of numbers. The second parameter
 #    will be a string that can be one of the following values: asc, desc, and none.
 
@@ -9,7 +10,7 @@
 response = ["asc", "desc", "none"]
 command = ""
 
-userInput = input("Give me a list of numbers seperated by a space")
+userInput = input("Give me a list of numbers seperated by a space\n")
 numberList = userInput.split()
 numberList = [int(x) for x in numberList]
 
@@ -28,5 +29,3 @@ elif command == "desc":
 else:
     print(numberList)
 
-#	This has been eddited from my pi though SSH, terminal and nano!
-#	Not sure if this is working
